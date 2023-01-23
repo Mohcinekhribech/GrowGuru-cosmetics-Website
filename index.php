@@ -1,6 +1,7 @@
 <?php
 require_once './Controller/productsController.php';
 require_once './Controller/adminController.php';
+require_once './Controller/StatistiqueController.php';
 session_start();
 $control = new productController;
 $admin = new AdminController;

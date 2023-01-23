@@ -1,7 +1,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <center>
 
-<form  action="?p=dashboard&a=add" id="form-1" class="w-1/2 max-md:w-3/4 max-md:mx-8" method="post" enctype="multipart/form-data" class="border p-6" id="form-1">
+<form  action="?p=dashboard&a=add" id="form-1" class="w-3/4 max-md:w-3/4" method="post" enctype="multipart/form-data" class="border p-6" id="form-1">
                         <div class="form-fieldset">
                             <div class="form-group">
                                 <input type="file" name="productPic[]" id="image" class="form-control block w-full text-sm text-sky-700
