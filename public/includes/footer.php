@@ -1,8 +1,7 @@
 <footer class="p-4 bg-black shadow md:px-6 md:py-8 ">
         <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="" class="flex items-center mb-4 sm:mb-0">
-                <img src="" class="mr-3 h-8" alt="" />
-            </a>
+        <p class="text-white font-bold text- my-auto">GLOW<span class="text-sm text-fuchsia-600">GURU</span></p>
+
             <ul class="flex flex-wrap items-center mb-6 text-sm text-white sm:mb-0 dark:text-gray-400">
                 <li>
                     <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>

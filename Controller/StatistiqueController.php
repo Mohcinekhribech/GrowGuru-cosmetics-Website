@@ -24,7 +24,7 @@ class Statistique extends db
         $min = $statistique->minPrice();
         return $min;
     }
-    function totalPrice()
+    function MoyenPrice()
     {
         $statistique = new StatistiqueModel;
         $totale = $statistique->AllPrices();
@@ -32,6 +32,6 @@ class Statistique extends db
         foreach ($totale as $key => $values) {
             $sum += $values['productPrice'];
         }
-        return $sum;
+        return number_format((float)$sum/$this->count(), 2, '.', '');
     }
 }

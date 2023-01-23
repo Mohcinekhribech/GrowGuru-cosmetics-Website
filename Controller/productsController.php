@@ -8,7 +8,7 @@ class productController  {
         
         if($_POST['submit']){
             foreach ($_POST['productName'] as $key => $name) {
-                    $data[$key]['productName'] = $name;
+                    $data[$key]['productName'] = htmlspecialchars($name, ENT_QUOTES);
                     $data[$key]['productPrice'] = $_POST['productPrice'][$key];
                 }
                 foreach ($_FILES['productPic']['tmp_name'] as $key => $image) {

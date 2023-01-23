@@ -79,9 +79,9 @@ $state = new Statistique;
                                             </div>
                                             <div class="ml-2 w-full flex-1">
                                                 <div>
-                                                    <div class="mt-3 text-3xl font-bold leading-8"><?= $state->totalPrice() ?></div>
+                                                    <div class="mt-3 text-3xl font-bold leading-8"><?= $state->MoyenPrice() ?></div>
 
-                                                    <div class="mt-1 text-base text-gray-600">Totale Price</div>
+                                                    <div class="mt-1 text-base text-gray-600">Moyen Price</div>
                                                 </div>
                                             </div>
                                         </div>
